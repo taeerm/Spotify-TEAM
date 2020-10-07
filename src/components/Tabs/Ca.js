@@ -1,8 +1,7 @@
 import React from 'react'
-import { contact } from '../../content/Data.json'
-import Form from './Form'
+import { ca } from '../../content/Data.json';
 
-const Contact = () => (
+const Ca = () => (
     <div 
         style={{ 
             height: "700px", 
@@ -15,10 +14,8 @@ const Contact = () => (
             borderRadius: "35px"
         }}
     >
-        { contact }
-        <br /><br /><br />
-        <Form/>
+        { ca }
     </div>
 )
 
-export default Contact
+export default Ca

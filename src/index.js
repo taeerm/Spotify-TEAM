@@ -1,14 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import './index.css'
-import App from './App'
+import Toolbar from './components/Toolbar/Toolbar'
 import * as serviceWorker from './serviceWorker'
 
 
-ReactDOM.render(
+ReactDOM.render (
   <React.StrictMode>
-    <App /> 
+    <div>
+        <Toolbar />
+    </div>
   </ React.StrictMode>,
   document.getElementById('root')
 );

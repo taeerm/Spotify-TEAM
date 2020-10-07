@@ -2,7 +2,6 @@ import React from 'react'
 
 import Box from '@material-ui/core/Box'
 import PropTypes from 'prop-types'
-import './TabPanel.css'
 
 TabPanel.propTypes = {
   children: PropTypes.node,
@@ -23,9 +22,7 @@ function TabPanel(props) {
       >
         {value === index && (   
           <Box p={3} >
-            <div className="card-class">
-                {children}
-            </ div>
+            {children}
           </Box>
         )}
       </div>
